@@ -58,13 +58,13 @@ pip install Flask flask-cors python-dotenv pymongo requests urllib3 schedule
 
 ### requirements.txt
 ```
-Flask==2.3.2
-requests==2.31.0
-pymongo==4.5.0
-python-dotenv==1.0.0
-schedule==1.2.0
-urllib3==2.0.4
-flask-cors==4.0.0
+Flask==3.1.1
+flask-cors==6.0.1
+pymongo==4.13.2
+python-dotenv==1.1.1
+requests==2.32.4
+schedule==1.2.2
+urllib3==2.5.0
 ```
 
 <a name="configuration"></a>
