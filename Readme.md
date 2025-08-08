@@ -120,7 +120,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # Run the service
-python3 wazuh_to_mongodb_integrated .py
+python3 wazuh_to_mongodb_integrated.py
 ```
 
 <a name="api-endpoints"></a>
