@@ -109,8 +109,8 @@ sudo systemctl restart wazuh-manager
 
 ```bash
 # Clone repository
-git clone https://github.com/your-org/wazuh-mongodb-integration.git
-cd wazuh-mongodb-integration
+git clone https://github.com/Cyart-project/configuration-assessment-back.git
+cd configuration-assessment-back
 
 # Create virtual environment
 python -m venv .venv
@@ -120,7 +120,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # Run the service
-python wazuh_webhook_to_mongodb.py
+python3 wazuh_to_mongodb_integrated .py
 ```
 
 <a name="api-endpoints"></a>
