@@ -52,7 +52,7 @@ This tool is designed for cybersecurity use cases where agents (devices/endpoint
 
 1. **Clone the Repository**
 
-- git clone https://your-repo-url.git
+- git clone https://github.com/Cyart-project/configuration-assessment-back.git
 - cd your-project-directory
 
 2. **Create and Configure .env File**
