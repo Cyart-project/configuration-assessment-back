@@ -113,7 +113,7 @@ Create a `.env` file in the project root with the following content:
 MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/?retryWrites=true&w=majority
 
 # Wazuh API credentials
-# Common default credentials: user=admin, password=admin
+# Common default credentials: user=wazuh-wui, password=wazuh-w
 WAZUH_API_URL=https://<wazuh_manager_ip>:55000
 WAZUH_USER=api_user
 WAZUH_PASS=api_password
