@@ -221,7 +221,7 @@ Start the integration service after ensuring the Wazuh Manager is running.
 2. **Run the Service**
 
    ```bash
-   python3 wazuh_to_mongodb_integrated.py
+   python3 'wazuh_to_mongodb_integrated .py'
    ```
 
 3. **Verify Startup**Check the logs for successful startup:
