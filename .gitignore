@@ -8,8 +8,12 @@ venv/
 
 # Environment files
 .env
+./wazuh_report/.env
 
 # Build artifacts
 *.egg-info/
 build/
 dist/
+
+# Report files
+cve_report_*.json
