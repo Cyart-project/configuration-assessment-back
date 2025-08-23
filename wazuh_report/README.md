@@ -50,17 +50,17 @@ This tool is designed for cybersecurity use cases where agents (devices/endpoint
 
 ## Setup Instructions
 
-1. **Clone the Repository**
+### 1. **Clone the Repository**
 
 - git clone https://github.com/Cyart-project/configuration-assessment-back.git
 - cd your-project-directory
 
-2. **Create and Configure .env File**
-## Setting Up Your NVD API Key
+### 2. **Create and Configure .env File**
+#### Setting Up Your NVD API Key
 
 You need a valid NVD API key to query vulnerability data from the National Vulnerability Database.
 
-### How to Get Your NVD API Key
+**How to Get Your NVD API Key:**
 
 1. Go to [https://nvd.nist.gov/developers/request-an-api-key](https://nvd.nist.gov/developers/request-an-api-key).
 2. Fill out the form with your organization name, email address, and organization type.
@@ -69,21 +69,22 @@ You need a valid NVD API key to query vulnerability data from the National Vulne
 5. Check your email for a message from the NVD team. Follow the single-use link in the email to view and activate your API key.  
    *Note: activate your key within seven days, or you’ll need to request a new one.*
 
-### Configure Your `.env` File
+**Configure Your `.env` File:**
 
 Add your MongoDB URI and the NVD API key to your `.env` file:
 `# .env`<br>
 `MONGO_URI=mongodb://localhost:27017`<br>
 `NVD_API_KEY=your_nvd_api_key_here`<br>
 Replace `your_nvd_api_key_here` with the API key you received.
-**Tip:**  
-With an API key, you can make up to **50 requests per 30 seconds** to the NVD API. Without a key, the limit is only **5 requests per 30 seconds**.
 
-3. **Install Python Dependencies**
+> **Tip:**  
+> With an API key, you can make up to **50 requests per 30 seconds** to the NVD API. Without a key, the limit is only **5 requests per 30 seconds**.
+
+### 3. Install Python Dependencies
 
 `pip install -r requirements.txt`
 
-4. **Run the Flask Server**
+### 4. Run the Flask Server
 
 `Python Report_API.py`<br>
 
